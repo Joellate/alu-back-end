@@ -24,7 +24,6 @@ if __name__ == "__main__":
     total_num_tasks = len(todo_data)
     print("Employee {} is done with tasks({}/{}):"
           .format(employee_name, num_completed_tasks, total_num_tasks))
-
     for task in todo_data:
         if task['completed']:
             print("\t {}".format(task['title']))
